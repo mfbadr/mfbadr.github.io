@@ -5,7 +5,7 @@
   angular.module('mfbadr', ['ngRoute'])
   .config(['$routeProvider', function($routeProvider){
     $routeProvider
-    .when('/', {templateUrl:'/view/home/home.html', controller:'HomeCtrl'})
+    .when('/', {templateUrl:'/views/home/home.html', controller:'HomeCtrl'})
     .otherwise({redirectTo:'/'});
 
   }]);

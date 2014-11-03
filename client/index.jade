@@ -4,8 +4,11 @@ html
     title Mikey Badr
   body
     h1 Mikey Badr
-    h2 test
-    h3 test2
+    .container
+      .row
+        .col-xs-12
+          #container(ng-view)
     script(src='/vendor/jquery/dist/jquery.js')
     script(src='/vendor/angular/angular.js')
     script(src='/vendor/bootstrap/dist/js/bootstrap.js')
+    script(src='/views/home/home.js')
