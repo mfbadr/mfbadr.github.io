@@ -33,7 +33,7 @@ gulp.task('sass', function(done) {
 gulp.task('jade', function() {
   gulp.src(paths.jade)
     .pipe(jade({pretty: true, doctype: 'html'}))
-    .pipe(gulp.dest('./www/'));
+    .pipe(gulp.dest('./'));
 });
 
 gulp.task('lint', function() {
