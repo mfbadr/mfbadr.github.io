@@ -12,8 +12,8 @@ var jscs      = require('gulp-jscs');
 
 var paths = {
   sass: ['./scss/**/*.scss'],
-  jade: ['./jade/*.jade'],
-  code: ['./www/js/**/*.js']
+  jade: ['./client/**/*.jade'],
+  code: ['./client/**/*.js']
 };
 
 gulp.task('default', ['sass', 'jade', 'lint', 'jscs', 'watch']);
@@ -39,12 +39,14 @@ gulp.task('jade', function() {
 gulp.task('lint', function() {
   return gulp.src(paths.code)
            .pipe(jshint())
-           .pipe(jshint.reporter('jshint-stylish'));
+           .pipe(jshint.reporter('jshint-stylish'))
+           .pipe(gulp.dest('./'));
 });
 
 gulp.task('jscs', function() {
   return gulp.src(paths.code)
-           .pipe(jscs());
+           .pipe(jscs())
+           .pipe(gulp.dest('./'));
 });
 
 gulp.task('watch', function() {
