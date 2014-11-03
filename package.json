@@ -2,7 +2,7 @@
   "name": "mfbadr",
   "version": "1.0.0",
   "description": "Mikey Badr's Portfolio",
-  "main": "index.html",
+  "main": "html/index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -29,6 +29,7 @@
     "jshint-stylish": "^1.0.0"
   },
   "devDependencies": {
-    "bower": "^1.3.12"
+    "bower": "^1.3.12",
+    "shelljs": "^0.3.0"
   }
 }

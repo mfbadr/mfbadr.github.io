@@ -6,7 +6,7 @@
     "Mikey Badr <mfbadr@gmail.com>"
   ],
   "description": "Mikey Badr's Portfolio",
-  "main": "index.html",
+  "main": "html/index.html",
   "license": "MIT",
   "ignore": [
     "**/.*",
