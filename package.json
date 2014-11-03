@@ -1,0 +1,19 @@
+{
+  "name": "mfbadr",
+  "version": "1.0.0",
+  "description": "Mikey Badr's Portfolio",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mfbadr/mfbadr.github.io"
+  },
+  "author": "Mikey Badr",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mfbadr/mfbadr.github.io/issues"
+  },
+  "homepage": "https://github.com/mfbadr/mfbadr.github.io"
+}
