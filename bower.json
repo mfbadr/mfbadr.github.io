@@ -1,0 +1,18 @@
+{
+  "name": "mfbadr.github.io",
+  "version": "0.0.0",
+  "homepage": "https://github.com/mfbadr/mfbadr.github.io",
+  "authors": [
+    "Mikey Badr <mfbadr@gmail.com>"
+  ],
+  "description": "Mikey Badr's Portfolio",
+  "main": "index.html",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
