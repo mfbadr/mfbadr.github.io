@@ -1,0 +1,57 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/node/bin/node',
+1 verbose cli   '/usr/local/node/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'https://raw.githubusercontent.com/mfbadr/mb-ionicphaser/master/.gitignore' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.32
+4 verbose readDependencies using package.json deps
+5 verbose cache add [ 'https://raw.githubusercontent.com/mfbadr/mb-ionicphaser/master/.gitignore',
+5 verbose cache add   null ]
+6 verbose cache add name=undefined spec="https://raw.githubusercontent.com/mfbadr/mb-ionicphaser/master/.gitignore" args=["https://raw.githubusercontent.com/mfbadr/mb-ionicphaser/master/.gitignore",null]
+7 verbose parsed url { protocol: 'https:',
+7 verbose parsed url   slashes: true,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: 'raw.githubusercontent.com',
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: 'raw.githubusercontent.com',
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: '/mfbadr/mb-ionicphaser/master/.gitignore',
+7 verbose parsed url   path: '/mfbadr/mb-ionicphaser/master/.gitignore',
+7 verbose parsed url   href: 'https://raw.githubusercontent.com/mfbadr/mb-ionicphaser/master/.gitignore' }
+8 silly lockFile dcdf1c49--mb-ionicphaser-master-gitignore https://raw.githubusercontent.com/mfbadr/mb-ionicphaser/master/.gitignore
+9 verbose lock https://raw.githubusercontent.com/mfbadr/mb-ionicphaser/master/.gitignore /Users/mikeybadr/.npm/dcdf1c49--mb-ionicphaser-master-gitignore.lock
+10 verbose addRemoteTarball [ 'https://raw.githubusercontent.com/mfbadr/mb-ionicphaser/master/.gitignore',
+10 verbose addRemoteTarball   null ]
+11 info retry fetch attempt 1 at 10:38:24
+12 verbose fetch to= /var/folders/kt/2czbkcj171ncmypnpn466dzr0000gn/T/npm-1595-piS-RRyR/raw.githubusercontent.com/mfbadr/mb-ionicphaser/master/.gitignore
+13 http GET https://raw.githubusercontent.com/mfbadr/mb-ionicphaser/master/.gitignore
+14 http 200 https://raw.githubusercontent.com/mfbadr/mb-ionicphaser/master/.gitignore
+15 verbose tar unpack /var/folders/kt/2czbkcj171ncmypnpn466dzr0000gn/T/npm-1595-piS-RRyR/raw.githubusercontent.com/mfbadr/mb-ionicphaser/master/.gitignore
+16 silly lockFile b56bfcd4-icphaser-master-gitignore-unpack tar:///var/folders/kt/2czbkcj171ncmypnpn466dzr0000gn/T/npm-1595-piS-RRyR/raw.githubusercontent.com/mfbadr/mb-ionicphaser/master/.gitignore-unpack
+17 verbose lock tar:///var/folders/kt/2czbkcj171ncmypnpn466dzr0000gn/T/npm-1595-piS-RRyR/raw.githubusercontent.com/mfbadr/mb-ionicphaser/master/.gitignore-unpack /Users/mikeybadr/.npm/b56bfcd4-icphaser-master-gitignore-unpack.lock
+18 silly lockFile ad42b70d--mb-ionicphaser-master-gitignore tar:///var/folders/kt/2czbkcj171ncmypnpn466dzr0000gn/T/npm-1595-piS-RRyR/raw.githubusercontent.com/mfbadr/mb-ionicphaser/master/.gitignore
+19 verbose lock tar:///var/folders/kt/2czbkcj171ncmypnpn466dzr0000gn/T/npm-1595-piS-RRyR/raw.githubusercontent.com/mfbadr/mb-ionicphaser/master/.gitignore /Users/mikeybadr/.npm/ad42b70d--mb-ionicphaser-master-gitignore.lock
+20 silly gunzTarPerm modes [ '755', '644' ]
+21 error not a package /var/folders/kt/2czbkcj171ncmypnpn466dzr0000gn/T/npm-1595-piS-RRyR/raw.githubusercontent.com/mfbadr/mb-ionicphaser/master/.gitignore
+22 silly lockFile b56bfcd4-icphaser-master-gitignore-unpack tar:///var/folders/kt/2czbkcj171ncmypnpn466dzr0000gn/T/npm-1595-piS-RRyR/raw.githubusercontent.com/mfbadr/mb-ionicphaser/master/.gitignore-unpack
+23 silly lockFile b56bfcd4-icphaser-master-gitignore-unpack tar:///var/folders/kt/2czbkcj171ncmypnpn466dzr0000gn/T/npm-1595-piS-RRyR/raw.githubusercontent.com/mfbadr/mb-ionicphaser/master/.gitignore-unpack
+24 silly lockFile ad42b70d--mb-ionicphaser-master-gitignore tar:///var/folders/kt/2czbkcj171ncmypnpn466dzr0000gn/T/npm-1595-piS-RRyR/raw.githubusercontent.com/mfbadr/mb-ionicphaser/master/.gitignore
+25 silly lockFile ad42b70d--mb-ionicphaser-master-gitignore tar:///var/folders/kt/2czbkcj171ncmypnpn466dzr0000gn/T/npm-1595-piS-RRyR/raw.githubusercontent.com/mfbadr/mb-ionicphaser/master/.gitignore
+26 silly lockFile dcdf1c49--mb-ionicphaser-master-gitignore https://raw.githubusercontent.com/mfbadr/mb-ionicphaser/master/.gitignore
+27 silly lockFile dcdf1c49--mb-ionicphaser-master-gitignore https://raw.githubusercontent.com/mfbadr/mb-ionicphaser/master/.gitignore
+28 error Error: ENOENT, open '/var/folders/kt/2czbkcj171ncmypnpn466dzr0000gn/T/npm-1595-piS-RRyR/raw.githubusercontent.com/mfbadr/mb-ionicphaser/master/.gitignore-unpack/package.json'
+29 error If you need help, you may report this *entire* log,
+29 error including the npm and node versions, at:
+29 error     <http://github.com/npm/npm/issues>
+30 error System Darwin 14.0.0
+31 error command "/usr/local/node/bin/node" "/usr/local/node/bin/npm" "install" "https://raw.githubusercontent.com/mfbadr/mb-ionicphaser/master/.gitignore"
+32 error cwd /Users/mikeybadr/Documents/Code/mfbadr.github.io
+33 error node -v v0.10.32
+34 error npm -v 1.4.28
+35 error path /var/folders/kt/2czbkcj171ncmypnpn466dzr0000gn/T/npm-1595-piS-RRyR/raw.githubusercontent.com/mfbadr/mb-ionicphaser/master/.gitignore-unpack/package.json
+36 error code ENOENT
+37 error errno 34
+38 verbose exit [ 34, true ]
