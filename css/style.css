@@ -39,6 +39,7 @@ body{
   border: 1px solid black;
   margin: 20px;
   padding: 5px;
+  vertical-align: top;
 }
 
 .project img{
