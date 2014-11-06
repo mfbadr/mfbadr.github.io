@@ -1,23 +1,22 @@
-h1.h1.headline: a(href='/#/') Mikey Badr
+ul#social
+  li.h1.headline: a(href='/#/') Mikey Badr
+  li
+  li: a(href='http://twitter.com/MikeyBadr') 
+    i.fa.fa-2x.fa-twitter
+  li: a(href='http://github.com/mfbadr') 
+    i.fa.fa-2x.fa-github
+  li: a(href='http://medium.com/@mikeybadr') 
+    i.fa.fa-2x.fa-pencil 
+  li: a(href='http://facebook.com/mikeybadr') 
+    i.fa.fa-2x.fa-facebook 
+  li: a(href='mailto:mfbadr@gmail.com') 
+    i.fa.fa-2x.fa-envelope 
 .row
   .col-xs-8
     h5 I'm an aspiring developer currently based out of Nashville, TN. 
     h5 Here you can find links to my projects, learn about my skills and how to contact me.
     br
     a(href='/#/portfolio') portfolio
-    ul#social
-      li
-      li
-      li: a(href='http://twitter.com/MikeyBadr') 
-        i.fa.fa-2x.fa-twitter
-      li: a(href='http://github.com/mfbadr') 
-        i.fa.fa-2x.fa-github
-      li: a(href='http://medium.com/@mikeybadr') 
-        i.fa.fa-2x.fa-pencil 
-      li: a(href='http://facebook.com/mikeybadr') 
-        i.fa.fa-2x.fa-facebook 
-      li: a(href='mailto:mfbadr@gmail.com') 
-        i.fa.fa-2x.fa-envelope 
   .col-xs-4
     img#myface(src='/assets/mfbadr.jpg')
     
@@ -44,7 +43,7 @@ h1.h1.headline: a(href='/#/') Mikey Badr
   h4.lead.text-center Or we could make...
   h4.text-center(ng-show='first') {{first}} for {{second}}!
   button.btn.btn-default.btn-md.newIdea(ng-click='newIdea()') That's a silly idea!
-  a.btn.btn-default.btn-md.doIt.text-right(href='mailto:mfbadr@gmail.com?subject=Lets make {{first}} for {{second}}!') Let's do it!
+  a.btn.btn-default.btn-md.doIt.text-right(href='mailto:mfbadr@gmail.com?subject=Lets make {{first}} for {{second}}!&body=Dear Mikey,\n {{first}} for {{second}} is a fantastic idea. You\'re hired.') Let's do it!
      
 
     
