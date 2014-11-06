@@ -31,3 +31,17 @@ body{
   color: #292929;
   display: inline;
 }
+
+.project{
+  display: inline-block;
+  max-height: 300px;
+  width: 200px;
+  border: 1px solid black;
+  margin: 20px;
+  padding: 5px;
+}
+
+.project img{
+  max-height: 100%;
+  max-width: 100%;
+}
