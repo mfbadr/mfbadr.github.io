@@ -3,7 +3,7 @@
 
   angular.module('mfbadr')
   .controller('SkillsCtrl', ['$scope', function($scope){
-    $scope.title = 'skills'
+    $scope.title = 'skills';
 
 
   }]);
