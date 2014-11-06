@@ -15,6 +15,7 @@
       'Github',
       'Twitter',
       'Youtube',
+      'Snapchat',
       'Vine',
       'Instagram',
       'Spotify',
