@@ -25,3 +25,8 @@ body{
   text-align: right;
   margin-left: 15px;
 }
+
+.headline a{
+  text-decoration: none;
+  color: #292929;
+}
