@@ -12,6 +12,7 @@ body{
 
 #social{
   list-style-type: none;
+  padding-left: 0px;
 }
 
 #social li{
@@ -31,8 +32,9 @@ body{
 
 .headline a{
   text-decoration: none;
-  color: #292929;
+  color: #333;
   display: inline;
+  margin: 0;
 }
 
 .project{
