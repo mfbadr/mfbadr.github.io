@@ -1,7 +1,7 @@
 .row
   .col-xs-12.col-md-4
     img#myface(src='/assets/mikey2_bw_square.jpg')
-  .col-xs-8
+  .col-xs-12.col-md-8
     h1.headline: a(href='/#/') Mikey Badr
     ul#social
       li: a(href='http://twitter.com/MikeyBadr') 
@@ -15,12 +15,9 @@
       h5 I'm an aspiring developer currently based out of Nashville, TN. 
       h5 Here you can find links to my projects, learn about my skills and how to contact me.
       br
-      h2(ng-click='collapseKnow = !collapseKnow') collapse
-      h3 collapse know is {{collapseKnow}}
-      div.collapse.in(collapse='collapseKnow')
-        .well
-          //
-          //
+      h3(ng-click='collapseKnow = !collapseKnow') collapse know is {{collapseKnow}}
+      div(collapse='collapseKnow')
+        .well.well-lg
           h2 here is some content 
           h2 here is some content 
           h2 here is some content 

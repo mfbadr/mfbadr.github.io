@@ -55,7 +55,8 @@
 
     $scope.newIdea();
 
-    $scope.collapseKnow = false;
+    $scope.collapseKnow = true;
+    $scope.collapseMade = true;
 
   }]);
 })();
