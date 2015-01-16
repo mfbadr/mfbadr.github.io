@@ -22,26 +22,7 @@ hr
       i.fa.fa-chevron-up(ng-show='!collapseKnow')
     div(collapse='collapseKnow')
       .well.well-lg
-        .row
-          .col-xs-12.col-sm-8
-            a(href='https://angularjs.org/' target="blank"): img.xp_icon(src='assets/icons/angular.png')
-            a(href='http://nodejs.org/' target="blank"): img.xp_icon(src='assets/icons/nodejs.png')
-            a(href='https://developer.mozilla.org/en-US/docs/Web/CSS' target="blank"): img.xp_icon(src='assets/icons/css3.png')
-            a(href='https://developer.mozilla.org/en-US/docs/Web/JavaScript' target="blank"): img.xp_icon(src='assets/icons/javascript.png')
-            a(href='https://developer.mozilla.org/en-US/docs/Web/HTML' target="blank"): img.xp_icon(src='assets/icons/html5.png')
-            a(href='http://www.mongodb.org/' target="blank"): img.xp_icon(src='assets/icons/mongo.png')
-            a(href='http://gruntjs.com/' target="blank"): img.xp_icon(src='assets/icons/grunt.png')
-            a(href='http://expressjs.com/' target="blank"): img.xp_icon(src='assets/icons/expressjs.png')
-            a(href='http://hapijs.com/' target="blank"): img.xp_icon(src='assets/icons/hapi.png')
-            a(href='http://getbootstrap.com/' target="blank"): img.xp_icon(src='assets/icons/bootstrap.png')
-            a(href='http://www.postgresql.org/' target="blank"): img.xp_icon(src='assets/icons/pg.png')
-            a(href='http://ionicframework.com/' target="blank"): img.xp_icon(src='assets/icons/ionic.png')
-          .col-xs-12.col-sm-4
-            p I am a full stack developer who speaks mainly JavaScript.
-            p On the front end I specialize in AngularJS.
-            p I can make simple static pages, webapps, mobile apps, and games
-            p If I don't know it, I'll learn it.
-        
+        include skills
 .row
   .col-xs-12
     a.h2(ng-click='collapseMade = !collapseMade', href='/#/') Things I made &nbsp;
@@ -49,7 +30,7 @@ hr
       i.fa.fa-chevron-up(ng-show='!collapseMade')
     div(collapse='collapseMade')
       .well.well-lg
-        include skills
+        include made
 .row
   h3.strong.text-center Let's make your idea reality.
   h4.lead.text-center Or we could make...
