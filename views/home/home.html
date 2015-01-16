@@ -10,6 +10,15 @@
       <li><a href="mailto:mfbadr@gmail.com"> <i class="fa fa-2x fa-envelope"> </i></a></li>
       <h5>I'm an aspiring developer currently based out of Nashville, TN. </h5>
       <h5>Here you can find links to my projects, learn about my skills and how to contact me.</h5>
+      <div class="game">
+        <h3 class="strong text-center">Let's make your idea reality.</h3>
+        <h4 class="lead text-center">Or we could make...</h4>
+        <h4 ng-show="first" class="text-center">{{first}} for {{second}}!</h4>
+        <div class="buttonContainer">
+          <button ng-click="newIdea()" class="btn btn-default btn-md newIdea">That's a silly idea!</button><a href="mailto:mfbadr@gmail.com?subject=Let's make something awesome!&amp;body=Dear Mikey,
+ {{first}} for {{second}} is a fantastic idea. You're hired." class="btn btn-default btn-md doIt text-right">Let's do it!</a>
+        </div>
+      </div>
     </ul>
   </div>
 </div>
@@ -30,7 +39,7 @@
       </div>
     </div>
   </div>
-</div>
+</div><br>
 <div class="row">
   <div class="col-xs-12"><a ng-click="collapseMade = !collapseMade" href="/#/" class="h2">Things I made &nbsp;<i ng-show="collapseMade" class="fa fa-chevron-down"></i><i ng-show="!collapseMade" class="fa fa-chevron-up"></i></a>
     <div collapse="collapseMade">
@@ -58,11 +67,4 @@
       </div>
     </div>
   </div>
-</div>
-<div class="row">
-  <h3 class="strong text-center">Let's make your idea reality.</h3>
-  <h4 class="lead text-center">Or we could make...</h4>
-  <h4 ng-show="first" class="text-center">{{first}} for {{second}}!</h4>
-  <button ng-click="newIdea()" class="btn btn-default btn-md newIdea">That's a silly idea!</button><a href="mailto:mfbadr@gmail.com?subject=Let's make something awesome!&amp;body=Dear Mikey,
- {{first}} for {{second}} is a fantastic idea. You're hired." class="btn btn-default btn-md doIt text-right">Let's do it!</a>
-</div>
+</div><br>
