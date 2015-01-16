@@ -47,6 +47,9 @@ hr
     a.h2(ng-click='collapseMade = !collapseMade', href='/#/') Things I made &nbsp;
       i.fa.fa-chevron-down(ng-show='collapseMade')
       i.fa.fa-chevron-up(ng-show='!collapseMade')
+    div(collapse='collapseMade')
+      .well.well-lg
+        include skills
 .row
   h3.strong.text-center Let's make your idea reality.
   h4.lead.text-center Or we could make...
