@@ -2,7 +2,7 @@
 (function(){
   'use strict';
 
-  angular.module('mfbadr', ['ngRoute', 'ui.bootstrap'])
+  angular.module('mfbadr', ['ngRoute'])
   .config(['$routeProvider', function($routeProvider){
     $routeProvider
     .when('/', {templateUrl:'/views/home/home.html', controller:'HomeCtrl'})

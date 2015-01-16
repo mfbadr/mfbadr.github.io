@@ -17,14 +17,18 @@
       br
       h2(ng-click='collapseKnow = !collapseKnow') collapse
       h3 collapse know is {{collapseKnow}}
-      div(collapse='collapseKnow')
+      div.collapse.in(collapse='collapseKnow')
         .well
+          //
+          //
           h2 here is some content 
           h2 here is some content 
           h2 here is some content 
           h2 here is some content 
           h2 here is some content 
-      a.h2(href='/#/skills') Things I know
+      a.h2(href='/#/skills') Things I know &nbsp;
+        i.fa.fa-chevron-down
+        
       br
       br
       a.h2(href='/#/portfolio') Things I made
