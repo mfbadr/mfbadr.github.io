@@ -1,24 +1,33 @@
-h1.headline: a(href='/#/') Mikey Badr
-ul#social
-  li: a(href='http://twitter.com/MikeyBadr') 
-    i.fa.fa-2x.fa-twitter
-  li: a(href='http://github.com/mfbadr') 
-    i.fa.fa-2x.fa-github
-  li: a(href='http://medium.com/@mikeybadr') 
-    i.fa.fa-2x.fa-pencil 
-  li: a(href='mailto:mfbadr@gmail.com') 
-    i.fa.fa-2x.fa-envelope 
 .row
+  .col-xs-12.col-md-4
+    img#myface(src='/assets/mikey2_bw_square.jpg')
   .col-xs-8
-    h5 I'm an aspiring developer currently based out of Nashville, TN. 
-    h5 Here you can find links to my projects, learn about my skills and how to contact me.
-    br
-    a.h2(href='/#/skills') Things I know
-    br
-    br
-    a.h2(href='/#/portfolio') Things I made
-  .col-xs-4
-    img#myface(src='/assets/mfbadr.jpg')
+    h1.headline: a(href='/#/') Mikey Badr
+    ul#social
+      li: a(href='http://twitter.com/MikeyBadr') 
+        i.fa.fa-2x.fa-twitter
+      li: a(href='http://github.com/mfbadr') 
+        i.fa.fa-2x.fa-github
+      li: a(href='http://medium.com/@mikeybadr') 
+        i.fa.fa-2x.fa-pencil 
+      li: a(href='mailto:mfbadr@gmail.com') 
+        i.fa.fa-2x.fa-envelope 
+      h5 I'm an aspiring developer currently based out of Nashville, TN. 
+      h5 Here you can find links to my projects, learn about my skills and how to contact me.
+      br
+      h2(ng-click='collapseKnow = !collapseKnow') collapse
+      h3 collapse know is {{collapseKnow}}
+      div(collapse='collapseKnow')
+        .well
+          h2 here is some content 
+          h2 here is some content 
+          h2 here is some content 
+          h2 here is some content 
+          h2 here is some content 
+      a.h2(href='/#/skills') Things I know
+      br
+      br
+      a.h2(href='/#/portfolio') Things I made
 .row
   h3.strong.text-center Let's make your idea reality.
   h4.lead.text-center Or we could make...

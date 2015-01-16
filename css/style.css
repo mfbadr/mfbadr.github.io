@@ -6,8 +6,9 @@ body{
 }
 
 #myface{
-  max-height: 200px;
-  border-radius: 220px;
+  margin-top: 20px;
+  max-height: 250px;
+  border-radius: 20px;
 }
 
 #social{
@@ -24,6 +25,7 @@ body{
   display: inline-block;
   margin-left: 38%;
 }
+
 .doIt{
   display: inline-block;
   text-align: right;

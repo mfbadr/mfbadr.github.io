@@ -48,14 +48,14 @@
       'hackers'
     ];
 
-    $scope.first = _.sample($scope.firstList);
-    $scope.second = _.sample($scope.secondList);
-
     $scope.newIdea = function(){
       $scope.first = _.sample($scope.firstList);
       $scope.second = _.sample($scope.secondList);
     };
 
+    $scope.newIdea();
+
+    $scope.collapseKnow = false;
 
   }]);
 })();
