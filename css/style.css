@@ -60,6 +60,13 @@ body{
   max-width: 100%;
 }
 
+a{
+  text-decoration: none !important;
+}
+
+a.h2:hover{
+  color: #23527C;
+}
 
 hr{
   border-color: black;
