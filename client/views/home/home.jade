@@ -10,6 +10,8 @@
         i.fa.fa-2x.fa-github
       li: a(href='http://medium.com/@mikeybadr') 
         i.fa.fa-2x.fa-pencil 
+      li: a(href='https://www.linkedin.com/profile/view?id=388687505') 
+        i.fa.fa-2x.fa-linkedin 
       li: a(href='mailto:mfbadr@gmail.com') 
         i.fa.fa-2x.fa-envelope 
       h5 I'm an aspiring developer currently based out of Nashville, TN. 
@@ -24,20 +26,15 @@
 hr
 .row
   .col-xs-12
-    a.h2(ng-click='collapseKnow = !collapseKnow', href='/#/') Things I know &nbsp;
-      i.fa.fa-chevron-down(ng-show='collapseKnow')
-      i.fa.fa-chevron-up(ng-show='!collapseKnow')
-    div(collapse='collapseKnow')
+    a.h2 Things I know:
+    div
       .well.well-lg
         include skills
 br
 .row
   .col-xs-12
-    a.h2(ng-click='collapseMade = !collapseMade', href='/#/') Things I made &nbsp;
-      i.fa.fa-chevron-down(ng-show='collapseMade')
-      i.fa.fa-chevron-up(ng-show='!collapseMade')
-    div(collapse='collapseMade')
+    h2 Things I made:
+    div
       .well.well-lg
         include made
-br
 
