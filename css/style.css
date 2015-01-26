@@ -22,8 +22,17 @@ body{
 }
 
 .buttonContainer{
+  padding-top: 14px;
   margin: 0 auto;
   max-width: 250px;
+}
+.game{
+  text-align: center;
+  background-color: #ddd;
+  max-width: 500px;
+  border-radius: 8px;
+  /* padding-top: 1px; */
+  padding-bottom: 5px;
 }
 
 .newIdea{
@@ -114,3 +123,6 @@ hr{
 }
 
 
+.inline{
+  display: inline;
+}
