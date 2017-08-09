@@ -2,10 +2,10 @@
 
 //js
 import * as $ from "jquery"
-import "bootstrap-sass/assets/javascripts/bootstrap.min.js";
+// import "bootstrap-sass/assets/javascripts/bootstrap.min.js";
 
 //css
-require ('../css/style.scss');
+// require ('../css/style.scss');
 
 window.onload = function() {
 	var projects = require('./projects.js').projects;
