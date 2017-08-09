@@ -1,0 +1,29 @@
+{
+  "name": "mfbadr.github.io",
+  "version": "0.0.0",
+  "homepage": "https://github.com/mfbadr/mfbadr.github.io",
+  "authors": [
+    "Mikey Badr <mfbadr@gmail.com>"
+  ],
+  "description": "Mikey Badr's Portfolio",
+  "main": "html/index.html",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "1.2.16",
+    "bootstrap": "~3.3.0",
+    "angular-route": "~1.3.9",
+    "underscore": "~1.7.0",
+    "angular-bootstrap": "~0.12.0",
+    "fontawesome": "~4.2.0"
+  },
+  "resolutions": {
+    "angular": "1.3.9"
+  }
+}

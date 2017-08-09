@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "mb-names",
   "version": "1.0.0",
   "description": "learning d3, visualizing census data",
@@ -27,5 +28,43 @@
   },
   "devDependencies": {
     "webpack-dev-server": "^2.5.0"
+=======
+  "name": "mfbadr",
+  "version": "1.0.0",
+  "description": "Mikey Badr's Portfolio",
+  "main": "html/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mfbadr/mfbadr.github.io"
+  },
+  "author": "Mikey Badr",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mfbadr/mfbadr.github.io/issues"
+  },
+  "homepage": "https://github.com/mfbadr/mfbadr.github.io",
+  "dependencies": {
+    "connect": "^3.3.2",
+    "gulp": "^3.8.9",
+    "gulp-concat": "^2.4.1",
+    "gulp-jade": "^0.9.0",
+    "gulp-jscs": "^1.2.1",
+    "gulp-jshint": "^1.9.0",
+    "gulp-minify-css": "^0.3.11",
+    "gulp-rename": "^1.2.0",
+    "gulp-sass": "^1.2.2",
+    "gulp-util": "^3.0.1",
+    "jshint-stylish": "^1.0.0",
+    "morgan": "^1.4.1",
+    "node-sass": "^2.1.1",
+    "serve-static": "^1.7.1"
+  },
+  "devDependencies": {
+    "bower": "^1.3.12",
+    "shelljs": "^0.3.0"
+>>>>>>> c59c62727259907ae34d9526ffb9d2997a6c61ac
   }
 }

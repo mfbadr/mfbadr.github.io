@@ -1,0 +1,40 @@
+.row
+  .col-xs-12.col-md-4
+    img#myface(src='/assets/mikey2_bw_square.jpg')
+  .col-xs-12.col-md-8
+    h1.headline Mikey Badr
+    ul#social
+      li: a(href='http://twitter.com/MikeyBadr') 
+        i.fa.fa-2x.fa-twitter
+      li: a(href='http://github.com/mfbadr') 
+        i.fa.fa-2x.fa-github
+      li: a(href='http://medium.com/@mikeybadr') 
+        i.fa.fa-2x.fa-pencil 
+      li: a(href='https://www.linkedin.com/profile/view?id=388687505') 
+        i.fa.fa-2x.fa-linkedin 
+      li: a(href='mailto:mfbadr@gmail.com') 
+        i.fa.fa-2x.fa-envelope 
+      h5 I'm a full-stack web developer in Brooklyn, NYC. 
+      h5 Here you can find links to my projects, learn about my skills and how to contact me.
+      .game
+        h3.strong Let's make your idea reality.
+        h4.lead.inline Or we could make...
+        h4.inline(ng-show='first') {{first}} for {{second}}!
+        .buttonContainer
+          button.btn.btn-default.btn-md.newIdea(ng-click='newIdea()') That's a silly idea!
+          a.btn.btn-default.btn-md.doIt.text-right(href='mailto:mfbadr@gmail.com?subject=Let\'s make something awesome!&body=Dear Mikey,\n {{first}} for {{second}} is a fantastic idea. You\'re hired.') Let's do it!
+hr
+.row
+  .col-xs-12
+    a.h2 Things I know:
+    div
+      .well.well-lg
+        include skills
+br
+.row
+  .col-xs-12
+    h2 Things I made:
+    div
+      .well.well-lg
+        include made
+
