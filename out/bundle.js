@@ -78,26 +78,27 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 // import "bootstrap-sass/assets/javascripts/bootstrap.min.js";
 
 //css
-// require ('../css/style.scss');
+__webpack_require__ (2);
 
 window.onload = function() {
-	var projects = __webpack_require__(2).projects;
+	var projects = __webpack_require__(3).projects;
+	projects = projects.reverse();
 
 	for(var i = projects.length - 1; i >= 0; i--) {
 		var $newProject = __WEBPACK_IMPORTED_MODULE_0_jquery__('<div/>', {'class':"project-item row is-flex"});
 		var $textPart = __WEBPACK_IMPORTED_MODULE_0_jquery__('<div/>', {'class':'col-xs-12 col-md-6 project-item-text'})
 		var $textWrapper = __WEBPACK_IMPORTED_MODULE_0_jquery__('<div/>', {'class':'project-item-text-wrapper'})
 		var $imgPart = __WEBPACK_IMPORTED_MODULE_0_jquery__('<div/>', {'class':'col-xs-12 col-md-6 project-item-img'})
-		if(true){
+		if(projects[i]['live_url']){
 			$textWrapper.append('<a href="'+ projects[i]['live_url'] +'"><p class="strong project-name h3">' + projects[i]['name'] + '</p></a>');
 		}
-		if(true){
+		if(projects[i]['github_url']){
 			$textWrapper.append('   <a href=' + projects[i]['github_url'] + '><i class="fa fa-github fa-2x"> </i></a>');
 		}
-		if(true){
+		if(projects[i]['description']){
 			$textWrapper.append('<p>' + projects[i]['description']+ '</p>');
 		}
-		if(true){
+		if(projects[i]['img_url']){
 			// $textPart.append('<p>' + projects[i]['description']+ '</p>');
 			var $imglink = __WEBPACK_IMPORTED_MODULE_0_jquery__('<a href="'+ projects[i]['live_url'] +'"></a>')
 			var $img = __WEBPACK_IMPORTED_MODULE_0_jquery__('<img class="project-img img-responsive">');
@@ -10386,7 +10387,22 @@ return jQuery;
 /* 2 */
 /***/ (function(module, exports) {
 
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+/* 3 */
+/***/ (function(module, exports) {
+
 const projects = [
+  {
+    name: 'Uncertain Interval',
+    live_url: 'https://itunes.apple.com/us/app/uncertain-interval/id1313027190?mt=8',
+    img_url: 'assets/img/ui_screen.png',
+    description: `An uncertain timer for when you need a little less control. Set an alarm to go off after a random period of time. 
+    Want to meditate for between 10 and 15 minutes? Leave in 20 or 30? 
+    Work for about half and hour? Let your kid play for a little while longer? Uncertain Interval lets you focus on the task at hand by letting go of some control. Available on the iOS and Android app stores.`,
+  },
+
   {
     name: 'Rain',
     live_url: 'http://mfb-rain.herokuapp.com/',

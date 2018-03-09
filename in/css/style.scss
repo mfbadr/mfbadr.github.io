@@ -85,6 +85,9 @@ p, div {
 .project-img {
 	@include boxShadow;
 	border-radius: 2px;
+	height: 100%;
+	max-height: 300px;
+	display: inline-block;
 }
 
 .project-item {
@@ -92,7 +95,13 @@ p, div {
 	margin-bottom: $gap/2;
 	&-img {
 		// padding: 0;
+		text-align: center;
 		padding: $gap;
+		a {
+			display: inline-block;
+			width: fit-content;
+			margin: 0 auto;
+		}
 	}
 	&-text {
 		padding: 25px;

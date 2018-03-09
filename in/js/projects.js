@@ -1,5 +1,14 @@
 const projects = [
   {
+    name: 'Uncertain Interval',
+    live_url: 'https://itunes.apple.com/us/app/uncertain-interval/id1313027190?mt=8',
+    img_url: 'assets/img/ui_screen.png',
+    description: `An uncertain timer for when you need a little less control. Set an alarm to go off after a random period of time. 
+    Want to meditate for between 10 and 15 minutes? Leave in 20 or 30? 
+    Work for about half and hour? Let your kid play for a little while longer? Uncertain Interval lets you focus on the task at hand by letting go of some control. Available on the iOS and Android app stores.`,
+  },
+
+  {
     name: 'Rain',
     live_url: 'http://mfb-rain.herokuapp.com/',
     img_url: 'assets/img/rain.png',
