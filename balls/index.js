@@ -1,18 +1,15 @@
 // import './node_modules/p5/lib/p5.js';
 const containerElement = document.getElementById('p5-container');
 
-const height = 800;
-const width = 800;
-const centerY = height/2;
-const centerX = width/2;
-let score = 0;
-let count = 0;
-const max = 100;
-
-let gameState = 0;
-
-
 const sketch = (p) => {
+  const height = p.windowHeight;
+  const width = p.windowWidth;
+  const centerY = height/2;
+  const centerX = width/2;
+  let score = 0;
+  let count = 0;
+  const max = 100;
+  let gameState = 0;
 
   let foods = [];
   // let x = 100;
@@ -114,8 +111,10 @@ p.mouseWheel = () => {
 
 p.setup = function() {
   // alert('Click the balls to make them disappear! How many can you get?')
-  p.createCanvas(height, width);
+  p.createCanvas(width, height);
   p.textFont(255)
+console.log({height})
+console.log({width})
 
   setInterval(addFood, 100)
 };
