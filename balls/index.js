@@ -116,6 +116,8 @@ p.setup = function() {
 console.log({height})
 console.log({width})
 
+p.textSize(16);
+
   setInterval(addFood, 100)
 };
 
