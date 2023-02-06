@@ -110,14 +110,9 @@ p.mouseWheel = () => {
 }
 
 p.setup = function() {
-  // alert('Click the balls to make them disappear! How many can you get?')
   p.createCanvas(width, height);
   p.textFont(255)
-console.log({height})
-console.log({width})
-
-p.textSize(16);
-
+  p.textSize(16);
   setInterval(addFood, 100)
 };
 
